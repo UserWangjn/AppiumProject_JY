@@ -75,11 +75,11 @@ inp_mes_text.send_keys('111111')
 # 获取登录按钮
 login_btn = wait.until(EC.presence_of_element_located((By.ID,'com.jieyue.jieyue.test:id/login_button')))
 login_btn.click()
-#获取跳过按钮
+#获取跳过按钮，跳过手势密码设置
 jump_btn = wait.until(EC.presence_of_element_located((By.ID,'com.jieyue.jieyue.test:id/right_text')))
 jump_btn.click()
 
-
+# 之后的流程可以继续实现，没时间就没继续写
 
 time.sleep(5)
 
